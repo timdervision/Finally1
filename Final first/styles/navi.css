@@ -1,0 +1,182 @@
+
+
+.explorernavs {
+    display:flex;
+    align-items: bottom;
+    position: r;
+    margin-bottom: 0px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.exploretext{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #cea135;
+    font-size: 20px;
+}
+
+.header {
+    display:flex;
+    justify-content: flex-start;
+    align-items: left;
+
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(42, 45, 58);
+    background-size: 100%;
+
+    top: 0;
+    left: 0;
+}
+
+.bottomcolor {
+    display:flex;
+    justify-content: flex-start;
+    align-items: left;
+
+    position: fixed;
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1c2024   ;
+    background-size: 100%;
+
+    margin-top: 715px;
+    top: 0;
+    left: 0;
+}
+
+.ExploreLinks {
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.Explore {
+    height: 50px;
+    width: 420px;
+}
+.logo-wrapper {
+    margin-right: 50px;
+}
+
+.logo-wrapper img{
+    width: 250px;
+    height: 100px;
+}
+
+.explorenav {
+    margin-right: 35px;
+    height: 100px;
+}
+
+.spark {
+    display:flex;
+    align-items: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    font-size: 30px;
+    height: 50px;
+    position: absolute;
+
+    margin-top: 45px;
+    margin-left: 40%;
+}
+
+.spark-text {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.SiteLinks {
+    margin-left: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.Create {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 60px;
+
+    background-color: #48515B;
+    border-radius: 5px;
+    color: #71EEB8;
+}
+
+.LogTemplate {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    height: 60px;
+    margin-right: 25px;
+    background-color: #48515B;
+    border-radius: 5px;
+    color: #71EEB8;
+}
+
+.CreateText {
+    margin-left: 20%;
+    margin-right: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.SignText {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.SearchIcon {
+        width: 100%;
+        height: 10%;
+        font-size: 18px;
+        padding: 1px;
+        border: 1px solid #ddd;
+      }
+
+.chevwrapper {
+    margin-right: 30px;
+}
+
+.chevron::before {
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+}
+
+.chevron.bottom:before {
+    top: 0;
+    transform: rotate(135deg);
+}
